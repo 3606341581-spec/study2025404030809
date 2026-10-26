@@ -51,11 +51,13 @@ public class StudentTest1 {
     }
 
     //建造方法打印数组
-    public static void print(Student arr[]){
+    public static void print(Student arr[]) {
         int count = getCount(arr);
-        for(int i = 0; i < count; i++){
+        for (int i = 0; i < count; i++) {
             Student student = arr[i];
-            System.out.println(student.getName()+" "+student.getAge()+" "+student.getId());
+            if (student != null) {
+                System.out.println(student.getName() + " " + student.getAge() + " " + student.getId());
+            }
         }
     }
 

@@ -1,7 +1,7 @@
 package Game;
 public class RoleTest {
     public static void main(String[] args) {
-        Role r1 = new Role("二臂", '女', 100);
+        Role r1 = new Role("吕亮达", '男', 100);
         Role r2 = new Role("龙少",'女',100);
         r1.showRoleInfo();
         r2.showRoleInfo();
