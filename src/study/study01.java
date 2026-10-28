@@ -1,4 +1,5 @@
 package study;
+//金额转化练习
 import java.util.Scanner;
 public class study01 {
     static void main(String[] args) {

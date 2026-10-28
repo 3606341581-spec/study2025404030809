@@ -1,5 +1,5 @@
 package study;
-
+//判断字符串是否是对称字符串
 import java.util.Scanner;
 
 public class study04 {

@@ -1,5 +1,5 @@
 package study;
-
+//根据身份证给出个人信息
 import java.util.Scanner;
 
 public class study02 {

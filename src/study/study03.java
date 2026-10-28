@@ -1,5 +1,5 @@
 package study;
-
+//设置屏蔽词
 import java.util.Scanner;
 
 public class study03 {
