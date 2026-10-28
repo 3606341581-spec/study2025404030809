@@ -1,7 +1,7 @@
 package study;
 import java.util.Scanner;
 public class study01 {
-    static void main() {
+    static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int money;
         while(true){
