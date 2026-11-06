@@ -4,9 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class StudentSystem {
-    static void main() {
-        Scanner sc = new Scanner(System.in);
-        ArrayList<Student> list = new ArrayList<>();
+    public static void studentMenu(ArrayList<Student> list,Scanner sc){
         //打印选项
         loop:while (true) {
             System.out.println("欢迎来到学生选课系统");
@@ -138,9 +136,8 @@ public class StudentSystem {
 
     //删除id
     public static void delete(ArrayList<Student> list,String id){
-        Student stu = new Student();
         for (int i = 0; i < list.size(); i++) {
-            stu = list.get(i);
+            Student stu = list.get(i);
             boolean flag = stu.getId().equals(id);
             if(flag){
                 list.remove(i);
